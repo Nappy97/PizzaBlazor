@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Shared\\BlazingPizza.Shared.csproj": {}
+  },
+  "projects": {
+    "D:\\study\\PizzaBlazor\\src\\BlazingPizza.ComponentsLibrary\\BlazingPizza.ComponentsLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.ComponentsLibrary\\BlazingPizza.ComponentsLibrary.csproj",
+        "projectName": "BlazingPizza.ComponentsLibrary",
+        "projectPath": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.ComponentsLibrary\\BlazingPizza.ComponentsLibrary.csproj",
+        "packagesPath": "C:\\Users\\wjddm\\.nuget\\packages\\",
+        "outputPath": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.ComponentsLibrary\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\study\\PizzaBlazor\\NuGet.Config",
+          "C:\\Users\\wjddm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Shared\\BlazingPizza.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Shared\\BlazingPizza.Shared.csproj",
+        "projectName": "BlazingPizza.Shared",
+        "projectPath": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Shared\\BlazingPizza.Shared.csproj",
+        "packagesPath": "C:\\Users\\wjddm\\.nuget\\packages\\",
+        "outputPath": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\study\\PizzaBlazor\\NuGet.Config",
+          "C:\\Users\\wjddm\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\study\\PizzaBlazor\\src\\BlazingPizza.ComponentsLibrary\\BlazingPizza.ComponentsLibrary.csproj": {
+                "projectPath": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.ComponentsLibrary\\BlazingPizza.ComponentsLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
