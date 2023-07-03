@@ -7,7 +7,7 @@
 <form class="dialog-body">
     <div>
         <label>Size:</label>
-        <input type="range" min="@Pizza.MinimumSize" max="@Pizza.MaximumSize" step="1" @bind="Pizza.Size" @bind:event="oninput"/>
+        <input type="range" min="@Pizza.MinimumSize" max="@Pizza.MaximumSize" step="1" @bind="Pizza.Size" @bind:event="oninput" />
         <span class="size-label">
             @(Pizza.Size)" (£@(Pizza.GetFormattedTotalPrice()))
         </span>
@@ -56,18 +56,12 @@
     <button class="btn btn-success ml-auto" @onclick="OnConfirm">Order ></button>
 </div>
 
-
 @code {
     List<Topping> toppings;
 
-    [Parameter]
-    public Pizza Pizza { get; set; }
-
-    [Parameter]
-    public EventCallback OnCancel { get; set; }
-
-    [Parameter]
-    public EventCallback OnConfirm { get; set; }
+    [Parameter] public Pizza Pizza { get; set; }
+    [Parameter] public EventCallback OnCancel { get; set; }
+    [Parameter] public EventCallback OnConfirm { get; set; }
 
     protected async override Task OnInitializedAsync()
     {
@@ -94,5 +88,4 @@
     {
         Pizza.Toppings.RemoveAll(pt => pt.Topping == topping);
     }
-
 }

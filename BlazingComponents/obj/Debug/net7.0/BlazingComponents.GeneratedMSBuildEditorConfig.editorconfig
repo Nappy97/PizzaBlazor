@@ -16,8 +16,8 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\study\PizzaBlazor\src\BlazingComponents
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/study/PizzaBlazor/src/BlazingComponents/TemplateDialog.razor]
-build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVEaWFsb2cucmF6b3I=
+[D:/study/PizzaBlazor/src/BlazingComponents/TemplatedDialog.razor]
+build_metadata.AdditionalFiles.TargetPath = VGVtcGxhdGVkRGlhbG9nLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/study/PizzaBlazor/src/BlazingComponents/TemplatedList.razor]

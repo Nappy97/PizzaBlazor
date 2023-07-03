@@ -1,4 +1,6 @@
-﻿using System.Text.Json.Serialization;
+﻿using System.Text.Json;
+using System.Text.Json.Serialization;
+using System.Text.Json.Serialization.Metadata;
 
 namespace BlazingPizza;
 
@@ -41,4 +43,6 @@ public class Pizza
 
 [JsonSourceGenerationOptions(GenerationMode = JsonSourceGenerationMode.Serialization)]
 [JsonSerializable(typeof(Pizza))]
-public partial class PizzaContext : JsonSerializerContext { }
+public partial class PizzaContext : JsonSerializerContext
+{
+}

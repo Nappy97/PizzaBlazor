@@ -11,6 +11,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
+      "hotReloadEnabled" : false,
       "inspectUri": "{wsProtocol}://{url.hostname}:{url.port}/_framework/debug/ws-proxy?browser={browserInspectUri}",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
@@ -19,6 +20,7 @@
     "BlazingPizza.Server": {
       "commandName": "Project",
       "launchBrowser": true,
+      "hotReloadEnabled" : false,
       "inspectUri": "{wsProtocol}://{url.hostname}:{url.port}/_framework/debug/ws-proxy?browser={browserInspectUri}",
       "applicationUrl": "https://localhost:5001;http://localhost:5000",
       "environmentVariables": {
@@ -29,8 +31,7 @@
       "commandName": "Executable", 
       "executablePath": "dotnet",
       "workingDirectory": "$(ProjectDir)",
-      "hotReloadEnabled": true,
-      "hotReloadProfile": "aspnetcore",
+      "hotReloadEnabled" : false,
       "commandLineArgs": "watch run",
       "launchBrowser": true,
       "environmentVariables": {

@@ -2,7 +2,7 @@
 @inject HttpClient HttpClient
 @inject OrderState OrderState
 @inject NavigationManager NavigationManager
-@inject IJSRuntime JS;
+@inject IJSRuntime JS
 
 <div class="main">
     <ul class="pizza-cards">
@@ -48,19 +48,12 @@
     </div>
 </div>
 
-@if (OrderState.ShowingConfigureDialog)
-{
-    @* <ConfigurePizzaDialog *@
-    @*     Pizza="OrderState.ConfiguringPizza" *@
-    @*     OnCancel="OrderState.CancelConfigurePizzaDialog" *@
-    @*     OnConfirm="OrderState.ConfirmConfigurePizzaDialog" /> *@
-    <TemplatedDialog Show="OrderState.ShowingConfigureDialog">
-        <ConfigurePizzaDialog 
-            Pizza="OrderState.ConfiguringPizza" 
-            OnCancel="OrderState.CancelConfigurePizzaDialog" 
-            OnConfirm="OrderState.ConfirmConfigurePizzaDialog" />
-    </TemplatedDialog>
-}
+<TemplatedDialog Show="OrderState.ShowingConfigureDialog">
+    <ConfigurePizzaDialog
+        Pizza="OrderState.ConfiguringPizza"
+        OnCancel="OrderState.CancelConfigurePizzaDialog"
+        OnConfirm="OrderState.ConfirmConfigurePizzaDialog" />
+</TemplatedDialog>
 
 @code {
     List<PizzaSpecial> specials;

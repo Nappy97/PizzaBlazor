@@ -219,3 +219,5 @@ D:\study\PizzaBlazor\src\BlazingPizza.Server\obj\Debug\net7.0\ref\BlazingPizza.S
 D:\study\PizzaBlazor\src\BlazingPizza.Server\bin\Debug\net7.0\BlazingComponents.staticwebassets.runtime.json
 D:\study\PizzaBlazor\src\BlazingPizza.Server\bin\Debug\net7.0\BlazingComponents.dll
 D:\study\PizzaBlazor\src\BlazingPizza.Server\bin\Debug\net7.0\BlazingComponents.pdb
+D:\study\PizzaBlazor\src\BlazingPizza.Server\bin\Debug\net7.0\BouncyCastle.Crypto.dll
+D:\study\PizzaBlazor\src\BlazingPizza.Server\bin\Debug\net7.0\WebPush.dll

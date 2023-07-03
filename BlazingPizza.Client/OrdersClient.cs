@@ -12,10 +12,12 @@ public class OrdersClient
     }
 
     public async Task<IEnumerable<OrderWithStatus>> GetOrders() =>
-        await httpClient.GetFromJsonAsync("orders", OrderContext.Default.ListOrderWithStatus);
+            await httpClient.GetFromJsonAsync("orders", OrderContext.Default.ListOrderWithStatus);
+
 
     public async Task<OrderWithStatus> GetOrder(int orderId) =>
-        await httpClient.GetFromJsonAsync($"orders/{orderId}", OrderContext.Default.OrderWithStatus);
+            await httpClient.GetFromJsonAsync($"orders/{orderId}", OrderContext.Default.OrderWithStatus);
+
 
     public async Task<int> PlaceOrder(Order order)
     {
@@ -25,4 +27,9 @@ public class OrdersClient
         return orderId;
     }
 
+    public async Task SubscribeToNotifications(NotificationSubscription subscription)
+    {
+        var response = await httpClient.PutAsJsonAsync("notifications/subscribe", subscription);
+        response.EnsureSuccessStatusCode();
+    }
 }

@@ -2,7 +2,6 @@
 @attribute [Authorize]
 @using System.Threading
 @inject OrdersClient OrdersClient
-@inject NavigationManager NavigationManager
 @implements IDisposable
 
 <PageTitle>Blazing Pizza - Order Details</PageTitle>
@@ -30,10 +29,10 @@
             </div>
             <div class="track-order-body">
                 <div class="track-order-details">
-                    <OrderReview Order="orderWithStatus.Order"/>
+                    <OrderReview Order="orderWithStatus.Order" />
                 </div>
                 <div class="track-order-map">
-                    <Map Zoom="13" Markers="orderWithStatus.MapMarkers"/>
+                    <Map Zoom="13" Markers="orderWithStatus.MapMarkers" />
                 </div>
             </div>
         </div>
@@ -41,9 +40,7 @@
 </div>
 
 @code {
-
-    [Parameter]
-    public int OrderId { get; set; }
+    [Parameter] public int OrderId { get; set; }
 
     OrderWithStatus orderWithStatus;
     bool invalidOrder;
@@ -51,10 +48,10 @@
 
     protected override void OnParametersSet()
     {
-    // If we were already polling for a different order, stop doing so
+        // If we were already polling for a different order, stop doing so
         pollingCancellationToken?.Cancel();
 
-    // Start a new poll loop
+        // Start a new poll loop
         PollForUpdates();
     }
 
@@ -97,5 +94,4 @@
     {
         pollingCancellationToken?.Cancel();
     }
-
 }
