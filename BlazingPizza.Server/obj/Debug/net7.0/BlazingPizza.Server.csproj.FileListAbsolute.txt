@@ -216,3 +216,6 @@ D:\study\PizzaBlazor\src\BlazingPizza.Server\obj\Debug\net7.0\refint\BlazingPizz
 D:\study\PizzaBlazor\src\BlazingPizza.Server\obj\Debug\net7.0\BlazingPizza.Server.pdb
 D:\study\PizzaBlazor\src\BlazingPizza.Server\obj\Debug\net7.0\BlazingPizza.Server.genruntimeconfig.cache
 D:\study\PizzaBlazor\src\BlazingPizza.Server\obj\Debug\net7.0\ref\BlazingPizza.Server.dll
+D:\study\PizzaBlazor\src\BlazingPizza.Server\bin\Debug\net7.0\BlazingComponents.staticwebassets.runtime.json
+D:\study\PizzaBlazor\src\BlazingPizza.Server\bin\Debug\net7.0\BlazingComponents.dll
+D:\study\PizzaBlazor\src\BlazingPizza.Server\bin\Debug\net7.0\BlazingComponents.pdb

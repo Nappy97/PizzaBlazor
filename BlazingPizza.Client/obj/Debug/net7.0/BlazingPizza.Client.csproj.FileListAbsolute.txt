@@ -1706,3 +1706,12 @@ D:\study\PizzaBlazor\src\BlazingPizza.Client\obj\Debug\net7.0\BlazingPizza.Clien
 D:\study\PizzaBlazor\src\BlazingPizza.Client\obj\Debug\net7.0\refint\BlazingPizza.Client.dll
 D:\study\PizzaBlazor\src\BlazingPizza.Client\obj\Debug\net7.0\BlazingPizza.Client.pdb
 D:\study\PizzaBlazor\src\BlazingPizza.Client\obj\Debug\net7.0\ref\BlazingPizza.Client.dll
+D:\study\PizzaBlazor\src\BlazingPizza.Client\bin\Debug\net7.0\wwwroot\_framework\BlazingComponents.dll
+D:\study\PizzaBlazor\src\BlazingPizza.Client\bin\Debug\net7.0\wwwroot\_framework\BlazingComponents.pdb
+D:\study\PizzaBlazor\src\BlazingPizza.Client\bin\Debug\net7.0\wwwroot\_framework\BlazingComponents.pdb.gz
+D:\study\PizzaBlazor\src\BlazingPizza.Client\bin\Debug\net7.0\wwwroot\_framework\BlazingComponents.dll.gz
+D:\study\PizzaBlazor\src\BlazingPizza.Client\bin\Debug\net7.0\BlazingComponents.staticwebassets.runtime.json
+D:\study\PizzaBlazor\src\BlazingPizza.Client\bin\Debug\net7.0\BlazingComponents.dll
+D:\study\PizzaBlazor\src\BlazingPizza.Client\bin\Debug\net7.0\BlazingComponents.pdb
+D:\study\PizzaBlazor\src\BlazingPizza.Client\obj\Debug\net7.0\build-gz\Pb0red3l.gz
+D:\study\PizzaBlazor\src\BlazingPizza.Client\obj\Debug\net7.0\build-gz\kjssf8Z5.gz

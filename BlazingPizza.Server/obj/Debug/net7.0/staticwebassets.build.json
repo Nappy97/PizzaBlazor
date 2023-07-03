@@ -1,11 +1,22 @@
 {
   "Version": 1,
-  "Hash": "029CGvD/CLK1/PFxdfO8gHjw+vo5vPc1g2sykkVQUf4=",
+  "Hash": "Q9JBrokn+L5pLy+g0lKZ4U97TiTBzDWHhZgvOZdGibc=",
   "Source": "BlazingPizza.Server",
   "BasePath": "_content/BlazingPizza.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "D:\\study\\PizzaBlazor\\src\\BlazingComponents\\BlazingComponents.csproj",
+      "Version": 2,
+      "Source": "BlazingComponents",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    },
     {
       "Identity": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Client\\BlazingPizza.Client.csproj",
       "Version": 2,
@@ -30,6 +41,13 @@
     }
   ],
   "DiscoveryPatterns": [
+    {
+      "Name": "BlazingComponents\\wwwroot",
+      "Source": "BlazingComponents",
+      "ContentRoot": "D:\\study\\PizzaBlazor\\src\\BlazingComponents\\wwwroot\\",
+      "BasePath": "_content/BlazingComponents",
+      "Pattern": "**"
+    },
     {
       "Name": "BlazingPizza.Client\\wwwroot",
       "Source": "BlazingPizza.Client",
@@ -1082,6 +1100,91 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\wjddm\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.0\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Identity": "D:\\study\\PizzaBlazor\\src\\BlazingComponents\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazingComponents.bundle.scp.css",
+      "SourceId": "BlazingComponents",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\study\\PizzaBlazor\\src\\BlazingComponents\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/BlazingComponents",
+      "RelativePath": "BlazingComponents.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\study\\PizzaBlazor\\src\\BlazingComponents\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazingComponents.bundle.scp.css"
+    },
+    {
+      "Identity": "D:\\study\\PizzaBlazor\\src\\BlazingComponents\\wwwroot\\background.png",
+      "SourceId": "BlazingComponents",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\study\\PizzaBlazor\\src\\BlazingComponents\\wwwroot\\",
+      "BasePath": "_content/BlazingComponents",
+      "RelativePath": "background.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\background.png"
+    },
+    {
+      "Identity": "D:\\study\\PizzaBlazor\\src\\BlazingComponents\\wwwroot\\exampleJsInterop.js",
+      "SourceId": "BlazingComponents",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\study\\PizzaBlazor\\src\\BlazingComponents\\wwwroot\\",
+      "BasePath": "_content/BlazingComponents",
+      "RelativePath": "exampleJsInterop.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\exampleJsInterop.js"
+    },
+    {
+      "Identity": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\BlazingComponents.dll",
+      "SourceId": "BlazingPizza.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/BlazingComponents.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\study\\PizzaBlazor\\src\\BlazingComponents\\bin\\Debug\\net7.0\\BlazingComponents.dll"
+    },
+    {
+      "Identity": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\BlazingComponents.pdb",
+      "SourceId": "BlazingPizza.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/BlazingComponents.pdb",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "symbol",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\study\\PizzaBlazor\\src\\BlazingComponents\\bin\\Debug\\net7.0\\BlazingComponents.pdb"
     },
     {
       "Identity": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\BlazingPizza.Client.dll",
@@ -6456,6 +6559,23 @@
       "OriginalItemSpec": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Globalization.Extensions.dll"
     },
     {
+      "Identity": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Client\\obj\\Debug\\net7.0\\build-gz\\kjssf8Z5.gz",
+      "SourceId": "BlazingPizza.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/BlazingComponents.pdb.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\BlazingComponents.pdb",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\BlazingComponents.pdb"
+    },
+    {
       "Identity": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Client\\obj\\Debug\\net7.0\\build-gz\\KLCKf8ek.gz",
       "SourceId": "BlazingPizza.Client",
       "SourceType": "Project",
@@ -7066,6 +7186,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Xml.XmlDocument.dll"
+    },
+    {
+      "Identity": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Client\\obj\\Debug\\net7.0\\build-gz\\Pb0red3l.gz",
+      "SourceId": "BlazingPizza.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Client\\bin\\Debug\\net7.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/BlazingComponents.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\BlazingComponents.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\BlazingComponents.dll"
     },
     {
       "Identity": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Client\\obj\\Debug\\net7.0\\build-gz\\pcG8PMHl.gz",
@@ -8173,6 +8310,23 @@
       "OriginalItemSpec": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Client\\bin\\Debug\\net7.0\\wwwroot\\_framework\\System.Data.DataSetExtensions.dll"
     },
     {
+      "Identity": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Client\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazingPizza.Client.styles.css",
+      "SourceId": "BlazingPizza.Client",
+      "SourceType": "Project",
+      "ContentRoot": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Client\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "BasePath": "/",
+      "RelativePath": "BlazingPizza.Client.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Client\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazingPizza.Client.styles.css"
+    },
+    {
       "Identity": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Client\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "BlazingPizza.Client",
       "SourceType": "Project",
@@ -8783,6 +8937,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\pushNotifications.js"
+    },
+    {
+      "Identity": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Server\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazingPizza.Server.styles.css",
+      "SourceId": "BlazingPizza.Server",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Server\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/BlazingPizza.Server",
+      "RelativePath": "BlazingPizza.Server.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "D:\\study\\PizzaBlazor\\src\\BlazingPizza.Server\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazingPizza.Server.styles.css"
     }
   ]
 }
